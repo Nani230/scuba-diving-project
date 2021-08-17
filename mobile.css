@@ -124,9 +124,10 @@
     }
 
     .dot-text{
-        visibility: hidden;
+        opacity: 0;
+        transition: .4s;
         position: absolute;
-        top: 55px;
+        top: 40px;
         width: 63%;
         text-align: right;
         margin-bottom: 10px;

@@ -113,11 +113,15 @@ function scrollToTop(){
 
     function dots(){
         if(Status===false){
-           document.getElementById('dot-text').style.visibility="visible";
+           document.getElementById('dot-text').style.opacity="1";
+           document.getElementById('dot-text').style.top="55px";
+
            Status=true;
         }
         else{
-           document.getElementById('dot-text').style.visibility="hidden";
+           document.getElementById('dot-text').style.opacity="0";
+           document.getElementById('dot-text').style.top="40px";
+
            Status=false;
 
 
